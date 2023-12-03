@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Réservation</title>
+</head>
+<body>
+<section>
+    <h2>Réservation</h2>
+
+    <form action="post">
+        <label for="nom">Nom:</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="prenom">Prénom:</label>
+        <input type="text" id="prenom" name="prenom" required>
+
+        <label for="telephone">Numéro de téléphone:</label>
+        <input type="tel" id="telephone" name="telephone" required>
+
+        <label for="date_reservation">Date de réservation:</label>
+        <input type="date" id="date_reservation" name="date_reservation" required>
+
+        <label for="heure_reservation">Heure de réservation:</label>
+        <input type="time" id="heure_reservation" name="heure_reservation" required>
+
+        <button type="submit">Réserver</button>
+    </form>
+   
+    <div class="nos-services-card">
+        <div class="nos-services-image">
+            <a href="Nos Services.html" target="_blank"><img src="images/Logo.jpg"></a>
+        </div>
+        <div class="nos-services-info">
+            <strong class="nos-services-title">
+                <span>
+                    Nos Services </span>
+            </strong>
+        </div>
+    </div>
+    <button onclick="window.location.href='index.html'">Retour à la page d'accueil</button>
+</section>
+</body>
+</html>

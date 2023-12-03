@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+header{
+    background-color:#0d0c19;
+    width:100% ;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 10px 200px ;
+}
+img{
+    height: auto;
+    width: 50px;
+    font-weight: 550;
+    flex-direction: row;
+    
+   
+    
+}
+  .logo{
+    text-decoration: none;
+    color: #FFF5EE;
+    text-transform: uppercase;
+    font-weight: 550;
+    font-size: 1.4em;
+}
+
+
+.navigation a{
+    color: #FFF5EE ;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    padding-left: 30px;
+   }
+   .navigation a:hover{
+
+color:	rgb(106, 188, 187);}
+section{
+    padding:100px 200px ;
+
+   }
+   .main{
+    width:100% ;
+    min-height: 100vh ;
+    display: flex;
+    align-items: center;
+    background: url(images/60cc87af46fc80951f8b4fac_barber-pole.jpg) no-repeat ;
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed ;
+
+
+   }
+   .main h2 {
+    font-family: cursive;
+    color: rgb(23, 134, 139);
+     font-size: 1.4em;
+    font-weight: 500;
+
+
+   }
+   .main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(255, 68, 0);
+    font-size: 2.5em;
+    font-weight: 600;
+   }
+
+   .main h3 {
+    color:  rgb(88, 88, 88);
+    font-family: cursive;
+
+    font-size: 2em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+   }
+   .main h3 span {
+    font-family: cursive;
+    color : #FFF9E3}
+    .main-btn{
+        color :rgb(64, 58, 52);
+        background-color: #F8F6F0;
+        text-decoration: none;
+        font-weight: 600;
+        display: inline-block;
+        padding: 0.0375em 2.1875em;
+        letter-spacing: 1px;
+        border-radius: 15px;
+        margin-bottom: 40px;
+        transition: 0.7s ease;
+      }
+      .main-btn:hover{
+        background-color: #E1D9D1;
+        transform: scale(1.1) ;}
+            .footer {
+                background-color:#0d0c19 ;
+                color: #ffff;
+                padding: 2em;
+                display: flex ;
+                justify-content: space-between ;
+            }
+            .footer-title {
+                font-size: 1em ;
+                font-weight: 600 ;
+            }
+            .footer-title span {
+                color:rgb(255, 68, 0);
+            }
+            

@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(images/pexels-dmitry-zvolskiy-1570806.jpg);
+    background-size: cover;
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ffffff;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #19374c;
+    color: rgb(255, 255, 255);
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+}
+.footer {
+    background-color: #19374c; 
+    color: rgb(255, 232, 232); 
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 1em ;
+    font-weight: 600 ;
+}
+.footer-title span {
+    color: #ffffff;
+}

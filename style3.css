@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(images/noserv.jpg);
+    background-size: cover;
+    color: #ffffff; 
+}
+
+.lineaire-simple {
+    background: linear-gradient(blue, #4B0082);
+}
+
+.container {
+    max-width: 300px;
+    margin: 50px auto;
+    background-color: #3498db;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff; 
+    font-size: 1.5em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-left: 20px;
+}
+
+label {
+    margin-bottom: 6px;
+    color: #000000; 
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #003e67;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(32, 0, 70);
+}
+
+.nos-services-card {
+    background-color: #9a6a6a; 
+    border: 1px solid #000000;
+    min-height: 14em;
+    width: 16em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 16px;
+    transition: 0.7s ease;
+    float: right; }
+
+.nos-services-card:hover {
+    transform: scale(1.1);
+}
+
+.nos-services-card:hover .nos-services-image {
+    opacity: 0.9;
+}
+
+.nos-services-image img {
+    width: 100%;
+}
+
+.nos-services-info {
+    padding: 3em;
+}
+
+.nos-services-title {
+    color: rgb(208, 208, 208);
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+    font-size: 0.7em;
+}
+
+section {
+    padding: 100px 200px;
+}
+
+
+
+button {
+    position: fixed;
+    bottom: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #9a6a6a;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #784242;
+}
+

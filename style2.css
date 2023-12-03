@@ -1,0 +1,82 @@
+.title  {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.info{
+    text-align: center;
+}
+
+.info h3{
+    color: #ffffff;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+body{
+    background: url(images/back3.jpg);
+    background-size: cover;
+}
+
+.content { 
+    margin-top: 30px;
+}
+
+.nos-services-card {
+    background-color: #c9c9c0;
+    border: 1px solid #c0c0bb;
+    min-height: 14em;
+    width: 16em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 16px;
+    transition: 0.7s ease;
+}
+
+.nos-services-card:hover {
+    transform: scale(1.1);
+}
+
+.nos-services-card:hover .nos-services-image {
+    opacity: 0.9;
+}
+
+.nos-services-image img{
+    width: 100%;
+}
+
+.nos-services-info {
+    padding: 3em;
+}
+
+.nos-services-but {
+    font-size: 0.8em;
+    color: rgb(36, 0, 80);
+}
+
+.nos-services-title { 
+    color: rgb(5, 0, 72);
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+
